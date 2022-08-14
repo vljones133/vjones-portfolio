@@ -6,7 +6,7 @@
   <p align="center">
     <a href="https://vljones133.github.io/portfolio">vljones133.github.io</a>
    modified from
-    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a> (Thanks. Hashir!)
+    <a href="https://hashirshoaeb.github.io">hashirshoaeb.github.io</a> (Thanks, Hashir!)
 
   </p>
 </p>
