@@ -19,18 +19,6 @@ const mainBody = {
       image: 'fa-linkedin',
       url: 'https://www.linkedin.com/in/valeriejones133',
     },
-    // {
-    //   image: 'fa-instagram',
-    //   url: 'https://www.instagram.com/hashirshoaeb/',
-    // },
-    // {
-    //   image: 'fa-linkedin',
-    //   url: 'https://www.linkedin.com/in/hashirshoaeb/',
-    // },
-    // {
-    //   image: 'fa-twitter',
-    //   url: 'https://www.twitter.com/hashirshoaeb/',
-    // },
   ],
 };
 
@@ -152,10 +140,5 @@ const experiences = {
     },
   ],
 };
-
-// Blog SECTION
-// const blog = {
-//   show: false,
-// };
 
 export { navBar, mainBody, about, repos, getInTouch, experiences };
