@@ -52,7 +52,7 @@ const about = {
   show: true,
   heading: 'About Me',
   imageLink: require('../editable-stuff/profile-pic.png'),
-  imageSize: 375,
+  imageSize: 300,
   message:
     "Hi! I'm Valerie Jones, a highly-energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. Creating beautiful websites and applications that help solve problems and increase efficience and productivity is my favorite.",
   resume:
@@ -69,65 +69,65 @@ const repos = {
   heading: 'Recent Projects',
   gitHubUsername: 'vljones133', //i.e."johnDoe12Gh"
   reposLength: 2,
-  specificRepos: [Team - Wall - E / Ready - To - Roomba, HerokuSetup],
+  specificRepos: [],
 };
 
 // Leadership SECTION
-const leadership = {
-  show: false,
-  heading: 'Leadership',
-  message:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.',
-  images: [
-    {
-      img: require('../editable-stuff/hashirshoaeb.png'),
-      label: 'First slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-    },
-    {
-      img: require('../editable-stuff/hashirshoaeb.png'),
-      label: 'Second slide label',
-      paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-    },
-  ],
-  imageSize: {
-    width: '615',
-    height: '450',
-  },
-};
+// const leadership = {
+//   show: false,
+//   heading: 'Leadership',
+//   message:
+//     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.',
+//   images: [
+//     {
+//       img: require('../editable-stuff/hashirshoaeb.png'),
+//       label: 'First slide label',
+//       paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+//     },
+//     {
+//       img: require('../editable-stuff/hashirshoaeb.png'),
+//       label: 'Second slide label',
+//       paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
+//     },
+//   ],
+//   imageSize: {
+//     width: '615',
+//     height: '450',
+//   },
+// };
 
 // SKILLS SECTION
-const skills = {
-  show: true,
-  heading: 'Skills',
-  hardSkills: [
-    { name: 'Python', value: 90 },
-    { name: 'SQL', value: 75 },
-    { name: 'Data Structures', value: 85 },
-    { name: 'C/C++', value: 65 },
-    { name: 'JavaScript', value: 90 },
-    { name: 'React', value: 65 },
-    { name: 'HTML/CSS', value: 55 },
-    { name: 'C#', value: 80 },
-  ],
-  softSkills: [
-    { name: 'Goal-Oriented', value: 80 },
-    { name: 'Collaboration', value: 90 },
-    { name: 'Positivity', value: 75 },
-    { name: 'Adaptability', value: 85 },
-    { name: 'Problem Solving', value: 75 },
-    { name: 'Empathy', value: 90 },
-    { name: 'Organization', value: 70 },
-    { name: 'Creativity', value: 90 },
-  ],
-};
+// const skills = {
+//   show: true,
+//   heading: 'Skills',
+//   hardSkills: [
+//     { name: 'Python', value: 90 },
+//     { name: 'SQL', value: 75 },
+//     { name: 'Data Structures', value: 85 },
+//     { name: 'C/C++', value: 65 },
+//     { name: 'JavaScript', value: 90 },
+//     { name: 'React', value: 65 },
+//     { name: 'HTML/CSS', value: 55 },
+//     { name: 'C#', value: 80 },
+//   ],
+//   softSkills: [
+//     { name: 'Goal-Oriented', value: 80 },
+//     { name: 'Collaboration', value: 90 },
+//     { name: 'Positivity', value: 75 },
+//     { name: 'Adaptability', value: 85 },
+//     { name: 'Problem Solving', value: 75 },
+//     { name: 'Empathy', value: 90 },
+//     { name: 'Organization', value: 70 },
+//     { name: 'Creativity', value: 90 },
+//   ],
+// };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
   heading: 'Get In Touch',
   message:
-    "I'm currently looking for full-time Full Stack Software Engineeringopportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Full Stack Software Engineering opportunities. If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
   email: 'vljones133@gmail.com',
 };
 
@@ -147,7 +147,7 @@ const experiences = {
     },
     {
       role: 'Junior Developer',
-      companylogo: require('../assets/img/accucode-log.png'),
+      companylogo: require('../assets/img/accucode-logo.png'),
       date: 'Jan 2013 – Oct 2013',
     },
   ],
@@ -158,13 +158,4 @@ const experiences = {
 //   show: false,
 // };
 
-export {
-  navBar,
-  mainBody,
-  about,
-  repos,
-  skills,
-  leadership,
-  getInTouch,
-  experiences,
-};
+export { navBar, mainBody, about, repos, getInTouch, experiences };
