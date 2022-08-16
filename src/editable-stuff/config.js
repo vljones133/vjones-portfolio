@@ -42,9 +42,9 @@ const about = {
   imageLink: require('../editable-stuff/profile-pic.png'),
   imageSize: 290,
   message:
-    "Hi! I'm Valerie, a highly-energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. Creating beautiful websites and applications that help solve problems and increase efficiency and productivity is my favorite.",
+    "Hi! I'm Valerie, a highly-energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. Creating beautiful websites and applications that help solve problems and increase efficiency and productivity are my favorite.",
   resume:
-    'https://drive.google.com/file/d/1ZPsLJrzajWcDdHf80LlO_DlJPvnNp3HT/view?usp=sharing',
+    'https://drive.google.com/file/d/1mhSnPyWnpL505xdtuw9R8Ju6L4yF77Wt/view?usp=sharing',
 };
 
 // PROJECTS SECTION
