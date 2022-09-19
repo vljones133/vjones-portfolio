@@ -56,80 +56,30 @@ const repos = {
   show: true,
   heading: 'Recent Projects',
   gitHubUsername: 'vljones133', //i.e."johnDoe12Gh"
-  reposLength: 2,
-  specificRepos: [],
+  reposLength: 4,
+  specificRepos: ['Team-Easily/Easily-v2', 'CampusCatalog'],
 };
-
-// Leadership SECTION
-// const leadership = {
-//   show: false,
-//   heading: 'Leadership',
-//   message:
-//     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.',
-//   images: [
-//     {
-//       img: require('../editable-stuff/hashirshoaeb.png'),
-//       label: 'First slide label',
-//       paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-//     },
-//     {
-//       img: require('../editable-stuff/hashirshoaeb.png'),
-//       label: 'Second slide label',
-//       paragraph: 'Nulla vitae elit libero, a pharetra augue mollis interdum.',
-//     },
-//   ],
-//   imageSize: {
-//     width: '615',
-//     height: '450',
-//   },
-// };
-
-// SKILLS SECTION
-// const skills = {
-//   show: true,
-//   heading: 'Skills',
-//   hardSkills: [
-//     { name: 'Python', value: 90 },
-//     { name: 'SQL', value: 75 },
-//     { name: 'Data Structures', value: 85 },
-//     { name: 'C/C++', value: 65 },
-//     { name: 'JavaScript', value: 90 },
-//     { name: 'React', value: 65 },
-//     { name: 'HTML/CSS', value: 55 },
-//     { name: 'C#', value: 80 },
-//   ],
-//   softSkills: [
-//     { name: 'Goal-Oriented', value: 80 },
-//     { name: 'Collaboration', value: 90 },
-//     { name: 'Positivity', value: 75 },
-//     { name: 'Adaptability', value: 85 },
-//     { name: 'Problem Solving', value: 75 },
-//     { name: 'Empathy', value: 90 },
-//     { name: 'Organization', value: 70 },
-//     { name: 'Creativity', value: 90 },
-//   ],
-// };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
   heading: 'Get In Touch',
   message:
-    "I'm currently looking for full-time Full Stack Software Engineering opportunities. If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+    "I'm currently looking for Full Stack Software Engineering opportunities. If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
   email: 'vljones133@gmail.com',
 };
 
 const experiences = {
-  show: false,
-  heading: 'Experiences',
+  show: true,
+  heading: 'Experience',
   data: [
     {
-      role: 'Software Engineer Student | Grace Hopper at Fullstack Academy', // Here Add Company Name
+      role: 'Software Engineer Student', // Here Add Company Name
       companylogo: require('../assets/img/grace-hopper-logo.png'),
-      date: 'June 2022 – Present',
+      date: 'June 2022 – Sept 2022',
     },
     {
-      role: 'Lead Designer and Project Manager for Web Development',
+      role: 'Lead Designer and Project Manager',
       companylogo: require('../assets/img/instant-entity-logo.png'),
       date: 'Jan 2014 – May 2017',
     },
@@ -137,6 +87,11 @@ const experiences = {
       role: 'Junior Developer',
       companylogo: require('../assets/img/accucode-logo.png'),
       date: 'Jan 2013 – Oct 2013',
+    },
+    {
+      role: 'Space Weather Forecaster',
+      companylogo: require('../assets/img/noaa_emblem_logo-2022.png'),
+      date: 'June 2013 – Jan 2013',
     },
   ],
 };
