@@ -4,13 +4,12 @@ import {
   navBar,
   mainBody,
   about,
-  repos,
   getInTouch,
   experiences,
 } from './editable-stuff/config.js';
 import MainBody from './components/home/MainBody';
 import AboutMe from './components/home/AboutMe';
-import Project from './components/home/Project';
+import Projects from './components/home/Projects';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import GetInTouch from './components/home/GetInTouch.jsx';
@@ -36,14 +35,15 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {experiences.show && <Experience experiences={experiences} />}
-      {repos.show && (
+      {<Projects />}
+      {/* {repos.show && (
         <Project
           heading={repos.heading}
           username={repos.gitHubUsername}
           length={repos.reposLength}
           specfic={repos.specificRepos}
         />
-      )}
+      )} */}
       {/* {leadership.show && (
         <Leadership
           heading={leadership.heading}

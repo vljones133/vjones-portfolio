@@ -60,6 +60,86 @@ const repos = {
   specificRepos: ['Team-Easily/Easily-v2', 'CampusCatalog'],
 };
 
+const projects = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+  {
+    name: 'Easily',
+    image: require('../assets/img/accucode-logo.png'),
+    description:
+      'Easily is a mobile Personal Assistant app that brings together everything you need to stay organized, plan ahead and prepare for your day. Created with convenience and design in mind, Easily combines your most-used apps and websites in one simple interface: email, calendar, events, weather and tasks.',
+    stack: [
+      'React',
+      'React Native',
+      'Expo',
+      'Firebase',
+      'Google Mail API',
+      'Google Calendar API',
+      'OpenWeather API',
+      'React Native Paper',
+      'Redux Toolkit',
+    ],
+    sourceCode: 'https://github.com/Team-Easily/Easily-v2',
+    livePreview: 'https://youtu.be/l552ZBV1kRQ',
+  },
+  {
+    name: 'Ready to Roomba',
+    image: require('../assets/img/accucode-logo.png'),
+    description:
+      'A mock e-commerce site where users can browse a selection of robotic vacuums, add to their cart, and checkout their selected products.',
+    stack: [
+      'Node.js',
+      'React',
+      'Redux',
+      'Express',
+      'PostgreSQL',
+      'Bootstrap',
+      'Stripe API',
+      'Heroku',
+    ],
+    sourceCode: 'https://github.com/Team-Wall-E/Ready-To-Roomba',
+    livePreview: 'https://ready-to-roomba.herokuapp.com/',
+  },
+  {
+    name: 'Campus Catalog',
+    image: require('../assets/img/accucode-logo.png'),
+    description:
+      'Campus and student catalog to create, read, update, and delete campuses and students.',
+    stack: [
+      'Node.js',
+      'Express',
+      'React',
+      'Redux',
+      'Express',
+      'Axios',
+      'PostgreSQL',
+      'Bootstrap',
+      'Webpack',
+      'Bootstrap',
+    ],
+    sourceCode: 'https://github.com/vljones133/CampusCatalog',
+    livePreview: 'https://campus-catalog.herokuapp.com/',
+  },
+];
+
+const skills = [
+  // skills can be added or removed
+  // if there are no skills, Skills section won't show up
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'React Native',
+  'Redux',
+  'Express',
+  'PostgreSQL',
+  'Firebase',
+  'Bootstrap',
+  'React Native Paper',
+  'Git',
+  'VSCode',
+];
+
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
@@ -96,4 +176,13 @@ const experiences = {
   ],
 };
 
-export { navBar, mainBody, about, repos, getInTouch, experiences };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  getInTouch,
+  experiences,
+  projects,
+  skills,
+};
