@@ -18,7 +18,7 @@ const ExperienceCard = ({ data }) => {
             className='bg-white mb-3'
             style={{ width: 200 }}
             src={data.companylogo}
-            alt=''
+            alt='logo'
           />
         </div>
         <p className='lead'>

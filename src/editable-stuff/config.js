@@ -65,9 +65,9 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Easily',
-    image: require('../assets/img/accucode-logo.png'),
+    mockup: require('../assets/img/Easily-mockup.jpg'),
     description:
-      'Easily is a mobile Personal Assistant app that brings together everything you need to stay organized, plan ahead and prepare for your day. Created with convenience and design in mind, Easily combines your most-used apps and websites in one simple interface: email, calendar, events, weather and tasks.',
+      'A mobile Personal Assistant app that brings together everything you need to stay organized, plan ahead, and prepare for your day.',
     stack: [
       'React',
       'React Native',
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     name: 'Ready to Roomba',
-    image: require('../assets/img/accucode-logo.png'),
+    mockup: require('../assets/img/Ready-to-Roomba-mockup.jpeg'),
     description:
       'A mock e-commerce site where users can browse a selection of robotic vacuums, add to their cart, and checkout their selected products.',
     stack: [
@@ -102,7 +102,7 @@ const projects = [
   },
   {
     name: 'Campus Catalog',
-    image: require('../assets/img/accucode-logo.png'),
+    mockup: require('../assets/img/Campus-catalog.png'),
     description:
       'Campus and student catalog to create, read, update, and delete campuses and students.',
     stack: [

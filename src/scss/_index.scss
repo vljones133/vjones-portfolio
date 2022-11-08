@@ -103,6 +103,11 @@ code {
   transition: transform 0.2s linear;
 }
 
+.project h3,
+.project .h3 {
+  margin-bottom: 1em;
+}
+
 .project:hover {
   transform: translateY(-7px);
 }
@@ -116,6 +121,7 @@ code {
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
+  padding-left: 0;
 }
 
 .project__stack-item {

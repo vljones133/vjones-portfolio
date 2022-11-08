@@ -5,6 +5,12 @@ const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
+    <img
+      className='bg-white mb-3 img-fluid'
+      src={project.mockup}
+      alt=''
+    />
+
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -21,6 +27,8 @@ const ProjectContainer = ({ project }) => (
         href={project.sourceCode}
         aria-label='source code'
         className='link link--icon'
+        target='_blank'
+        rel='noreferrer'
       >
         <i className='fab fa-github' />
       </a>
@@ -31,8 +39,14 @@ const ProjectContainer = ({ project }) => (
         href={project.livePreview}
         aria-label='live preview'
         className='link link--icon'
+        target='_blank'
+        rel='noreferrer'
       >
-        <i className='fa-external-link-square' />
+        <i
+          class='bi bi-box-arrow-up-right'
+          role='img'
+          aria-label='Open Link'
+        ></i>
       </a>
     )}
   </div>
