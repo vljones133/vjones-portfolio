@@ -117,7 +117,7 @@ const projects = [
       'Bootstrap',
     ],
     sourceCode: 'https://github.com/vljones133/CampusCatalog',
-    livePreview: 'https://campus-catalog.herokuapp.com/',
+    livePreview: 'https://campuscatalog.onrender.com/',
   },
 ];
 
