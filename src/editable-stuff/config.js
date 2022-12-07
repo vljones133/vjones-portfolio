@@ -97,7 +97,7 @@ const projects = [
       'Heroku',
     ],
     sourceCode: 'https://github.com/Team-Wall-E/Ready-To-Roomba',
-    livePreview: 'https://ready-to-roomba.herokuapp.com/',
+    livePreview: 'https://ready-to-roomba.onrender.com',
   },
   {
     name: 'Campus Catalog',
