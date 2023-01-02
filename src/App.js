@@ -10,6 +10,7 @@ import {
 import MainBody from './components/home/MainBody';
 import AboutMe from './components/home/AboutMe';
 import Projects from './components/home/Projects';
+import Testimonials from './components/home/Testimonials';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import GetInTouch from './components/home/GetInTouch.jsx';
@@ -36,29 +37,7 @@ const Home = React.forwardRef((props, ref) => {
       )}
       {experiences.show && <Experience experiences={experiences} />}
       {<Projects />}
-      {/* {repos.show && (
-        <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
-        />
-      )} */}
-      {/* {leadership.show && (
-        <Leadership
-          heading={leadership.heading}
-          message={leadership.message}
-          img={leadership.images}
-          imageSize={leadership.imageSize}
-        />
-      )} */}
-      {/* {skills.show && (
-        <Skills
-          heading={skills.heading}
-          hardSkills={skills.hardSkills}
-          softSkills={skills.softSkills}
-        />
-      )} */}
+      {<Testimonials />}
     </>
   );
 });
@@ -72,8 +51,6 @@ const App = () => {
       <Routes>
         <Route path='/' exact element={<Home ref={titleRef} />} />
       </Routes>
-      {/* {false && <Route path="/blog" exact component={Blog} />}
-      {false && <Route path="/blog/:id" component={BlogPost} />} */}
       <Footer>
         {getInTouch.show && (
           <GetInTouch

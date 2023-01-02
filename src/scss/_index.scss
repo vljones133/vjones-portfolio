@@ -184,3 +184,47 @@ code {
 ul {
   list-style-type: none;
 }
+
+.carousel-indicators {
+  bottom: -20px !important;
+  margin-bottom: 0 !important;
+}
+
+.test-pic {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+.centered h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.centered h4 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.centered blockquote {
+  margin-bottom: 1rem;
+}
+
+.carousel-inner {
+  width: 90% !important;
+  margin: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5% !important;
+}
+
+$carousel-dark-indicator-active-bg: $black;
+$carousel-dark-caption-color: $black;
+$carousel-dark-control-icon-filter: invert(1) grayscale(100);

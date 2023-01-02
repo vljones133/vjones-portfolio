@@ -8,7 +8,7 @@ const ExperienceCard = ({ data }) => {
       <div className='pb-5 text-center'>
         <div
           style={{
-            height: 200,
+            height: 175,
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
@@ -16,7 +16,7 @@ const ExperienceCard = ({ data }) => {
         >
           <img
             className='bg-white mb-3'
-            style={{ width: 200 }}
+            style={{ maxWidth: 230, maxHeight: 125 }}
             src={data.companylogo}
             alt='logo'
           />
