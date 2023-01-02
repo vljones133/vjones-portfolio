@@ -1,15 +1,10 @@
 import uniqid from 'uniqid';
-//import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
     <h3>{project.name}</h3>
 
-    <img
-      className='bg-white mb-3 img-fluid'
-      src={project.mockup}
-      alt=''
-    />
+    <img className='bg-white mb-3 img-fluid' src={project.mockup} alt='' />
 
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -43,7 +38,7 @@ const ProjectContainer = ({ project }) => (
         rel='noreferrer'
       >
         <i
-          class='bi bi-box-arrow-up-right'
+          className='bi bi-box-arrow-up-right'
           role='img'
           aria-label='Open Link'
         ></i>

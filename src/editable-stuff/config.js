@@ -42,7 +42,7 @@ const about = {
   imageLink: require('../editable-stuff/profile-pic.png'),
   imageSize: 290,
   message:
-    "Hi! I'm Valerie, a highly-energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. Creating beautiful websites and applications that help solve problems and increase efficiency and productivity are my favorite.",
+    "Hi! I'm Valerie, an energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. I love creating beautiful websites and applications that help solve problems and increase efficiency and productivity.",
   resume: 'https://www.cakeresume.com/valerie-jones',
 };
 

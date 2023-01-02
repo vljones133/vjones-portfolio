@@ -10,7 +10,6 @@ import { useScrollPosition } from '../../hooks/useScrollPosition';
 const Skills = React.forwardRef(({ heading, hardSkills, softSkills }, ref) => {
   const skillsTabRef = React.useRef(null);
   const [isScrolled, setIsScrolled] = React.useState(false);
-  //const navbarDimensions = useResizeObserver(navbarMenuRef);
 
   useScrollPosition(
     ({ prevPos, currPos }) => {
