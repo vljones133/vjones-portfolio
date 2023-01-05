@@ -3,7 +3,6 @@ import { projects } from '../../editable-stuff/config';
 import ProjectContainer from '../home/ProjectContainer';
 import Container from 'react-bootstrap/Container';
 import { Jumbotron } from './migration';
-//import './Projects.css';
 
 const Projects = () => {
   if (!projects.length) return null;

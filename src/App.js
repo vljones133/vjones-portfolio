@@ -6,6 +6,8 @@ import {
   about,
   getInTouch,
   experiences,
+  projects,
+  testimonials,
 } from './editable-stuff/config.js';
 import MainBody from './components/home/MainBody';
 import AboutMe from './components/home/AboutMe';
@@ -36,8 +38,8 @@ const Home = React.forwardRef((props, ref) => {
         />
       )}
       {experiences.show && <Experience experiences={experiences} />}
-      {<Projects />}
-      {<Testimonials />}
+      {<Projects projects={projects} />}
+      {<Testimonials testimonials={testimonials}/>}
     </>
   );
 });
