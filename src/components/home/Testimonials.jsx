@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <Jumbotron fluid className='bg-white m-0'>
       <h2 className='display-4 pb-5 text-center'>Client Testimonials</h2>
-      <Carousel className='carousel-dark'>
+      <Carousel interval={null} className='carousel-dark'>
         <Carousel.Item>
           <Row>
             <Col xs={12} md={4} className='centered px-4'>
@@ -332,7 +332,7 @@ const Testimonials = () => {
         </Carousel.Item>
         <Carousel.Item>
           <Col className='centered mb-5'>
-            <h3>Read More</h3>
+            <h2>Read More</h2>
             <a
               href='https://instantentity.etsy.com/'
               target='_blank'
