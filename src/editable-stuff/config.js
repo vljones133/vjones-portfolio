@@ -178,8 +178,8 @@ const experiences = {
 const testimonials = [
   {
     name: 'Elizabeth Cooper',
-    imageUrl:
-      'https://i.etsystatic.com/iusa/e6a3d2/52240878/iusa_400x400.52240878_9g3b.jpg?version=0',
+    imageUrl: require('../assets/img/TestimonialPics/Elizabeth.jpeg'),
+    // 'https://i.etsystatic.com/iusa/e6a3d2/52240878/iusa_400x400.52240878_9g3b.jpg?version=0',
     text: "Amazing to work with, and absolutely stunning end result! I couldn't be happier. :)",
     rating: 5,
   },
