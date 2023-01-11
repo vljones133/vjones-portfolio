@@ -175,6 +175,63 @@ const experiences = {
   ],
 };
 
+const testimonials = [
+  {
+    name: 'Elizabeth Cooper',
+    imageUrl: require('../assets/img/TestimonialPics/Elizabeth.jpeg'),
+    text: "Amazing to work with, and absolutely stunning end result! I couldn't be happier. :)",
+    rating: 5,
+  },
+  {
+    name: 'Christine',
+    imageUrl: require('../assets/img/TestimonialPics/Christine.jpeg'),
+    text: "Valerie has done excellent work! It's been a pleasure working with her and I highly recommend her for website help. Everything was done quickly and completely, and she has explained things in simple terms that even I can understand. :) Highly recommend!",
+    rating: 5,
+  },
+  {
+    name: 'Gail Welter',
+    imageUrl: require('../assets/img/TestimonialPics/Gail.jpeg'),
+    text: "Valerie and her team were just wonderful to work with. Attentive and prompt, insightful, patient and determined to meet her customers needs and expectations. This was a delightful, easy and successful process. I'd work with Instant Entity again and recommend Valerie highly.",
+    rating: 5,
+  },
+  {
+    name: 'Sue',
+    imageUrl: require('../assets/img/TestimonialPics/Sue.jpeg'),
+    text: "I can't say enough about how professional and talented Valerie is. She handled my complex project with skill and was incredibly patient and thorough through all of its roadblocks. I've worked with tech professionals before and had some disappointing experiences with their interpersonal skills. Not so with Valerie--she is an excellent communicator and an expert designer. Thank you to Valerie for surpassing my expectations!",
+    rating: 5,
+  },
+  {
+    name: 'Nicole',
+    imageUrl: require('../assets/img/TestimonialPics/Nicole.jpeg'),
+    text: "Let me just start off by saying that Valerie and her team are simply amazing! I can't even begin to describe my project without extreme joy. Valerie was always very attentive and reassuring, regardless of how many times I wanted to change something or if I had a concern. She always addressed everything and made sure that I was always completely satisfied. I'm so happy that my custom website design is done and am in absolute love with it! I'll definitely be using Valerie for all my website needs! I'd highly recommend her! Thank you so much for your hard work!!!!!!",
+    rating: 5,
+  },
+  {
+    name: 'Jada Johnson',
+    imageUrl: require('../assets/img/TestimonialPics/Jada.jpeg'),
+    text: "Valerie is great! She's done everything for me from website redesign to troubleshooting and fixing issues. She's knowledgeable, helpful and delivers a quality product every time. And I come back every time I have an issue with my website or need a change. Thanks Valerie!",
+    rating: 5,
+  },
+  {
+    name: 'Tanvi',
+    imageUrl: require('../assets/img/TestimonialPics/Tanvi.jpeg'),
+    text: 'Valerie has been a dream to work with. She is prompt, patient and professional. She took time to answer all my questions, incorporated my feedback into the design. I am in love with my website and it is all thanks to her. I cannot recommend her enough. You need to work with her. She is the best.',
+    rating: 5,
+  },
+  {
+    name: 'Laura Drayton',
+    imageUrl: require('../assets/img/TestimonialPics/Laura.jpeg'),
+    text: "I loved working with Valerie! She's great at communicating, and was able to help me achieve exactly what I wanted!",
+    rating: 5,
+  },
+  {
+    name: 'Amber L',
+    imageUrl: require('../assets/img/TestimonialPics/Amber.jpeg'),
+    text: "Valerie is Amazing at her work and I am beyond glad that I found her! She seems to be an expert at wordpress. (And a great graphic designer..which I used her for as well!) Best wordpress programmer I've found! She gives 110%. She keeps in good communication with you and is very organized and thorough with each project. I'm extremely happy with her work!!",
+    rating: 5,
+  },
+];
+
 export {
   navBar,
   mainBody,
@@ -184,4 +241,5 @@ export {
   experiences,
   projects,
   skills,
+  testimonials,
 };

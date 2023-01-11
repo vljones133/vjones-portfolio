@@ -225,6 +225,10 @@ ul {
   width: 5% !important;
 }
 
+.carousel-row-more {
+  min-height: 175px;
+}
+
 $carousel-dark-indicator-active-bg: $black;
 $carousel-dark-caption-color: $black;
 $carousel-dark-control-icon-filter: invert(1) grayscale(100);
