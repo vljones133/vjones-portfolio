@@ -12,8 +12,8 @@ const createCarouselArray = () => {
   let rowArray = [];
   let count = 1;
 
-  for (let i = 0; i < testimonials.length; i++) {
-    rowArray.push(testimonials[i]);
+  for (let i of testimonials) {
+    rowArray.push(i);
 
     if (count % 3 === 0) {
       carouselArray.push(rowArray);
@@ -25,41 +25,20 @@ const createCarouselArray = () => {
   return carouselArray;
 };
 
-function ListStars(props) {
-  console.log(props.rating);
+const ListStars = (props) => {
   let ratingArray = [];
   for (let i = 1; i <= props.rating; i++) {
-    console.log('i: ', i);
     ratingArray.push(i);
   }
   return ratingArray.map((rating) => (
-    <li>
+    <li key={rating}>
       <i className='fas fa-star fa-sm'></i>
     </li>
   ));
-}
-
-// const listItems = () => {
-//   let RATING = 5;
-//   for (let i = 0; i <= RATING; i++) {
-//     console.log('i: ', i);
-//     return <ListStars />;
-//   }
-// };
+};
 
 const Testimonials = () => {
-  let carouselArray = createCarouselArray();
-  //   const listItems = () => {
-  //     console.log(testimonials.rating);
-  //     for (let i = 0; i <= testimonials.rating; i++) {
-  //       console.log('i: ', i);
-  //       return (
-  //         <li>
-  //           <i className='fas fa-star fa-sm'></i>
-  //         </li>
-  //       );
-  //     }
-  //   };
+  const carouselArray = createCarouselArray();
 
   return (
     <Jumbotron fluid className='bg-white m-0'>
@@ -89,6 +68,19 @@ const Testimonials = () => {
             </Row>
           </Carousel.Item>
         ))}
+        <Carousel.Item>
+          <Row className='carousel-row-more'>
+            <h3 className='text-center pt-5'>
+              <a
+                href='https://instantentity.etsy.com/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                Read More on Etsy
+              </a>
+            </h3>
+          </Row>
+        </Carousel.Item>
       </Carousel>
     </Jumbotron>
   );
