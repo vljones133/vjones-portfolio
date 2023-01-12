@@ -46,19 +46,6 @@ const about = {
   resume: 'https://www.cakeresume.com/valerie-jones',
 };
 
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: true,
-  heading: 'Recent Projects',
-  gitHubUsername: 'vljones133', //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: ['Team-Easily/Easily-v2', 'CampusCatalog'],
-};
-
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
@@ -144,7 +131,8 @@ const getInTouch = {
   show: true,
   heading: 'Get In Touch',
   message:
-    "I'm currently looking for Full Stack Software Engineering opportunities. If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+    `I'm currently looking for Full Stack Software Engineering opportunities.
+    If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at `,
   email: 'vljones133@gmail.com',
 };
 
@@ -158,7 +146,7 @@ const experiences = {
       date: 'June 2022 – Sept 2022',
     },
     {
-      role: 'Lead Designer and Project Manager',
+      role: 'Owner - Web Design/Development',
       companylogo: require('../assets/img/instant-entity-logo.png'),
       date: 'Jan 2014 – May 2017',
     },
@@ -236,7 +224,6 @@ export {
   navBar,
   mainBody,
   about,
-  repos,
   getInTouch,
   experiences,
   projects,

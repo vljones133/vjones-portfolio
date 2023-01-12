@@ -68,19 +68,6 @@ const Testimonials = () => {
             </Row>
           </Carousel.Item>
         ))}
-        <Carousel.Item>
-          <Row className='carousel-row-more'>
-            <h3 className='text-center pt-5'>
-              <a
-                href='https://instantentity.etsy.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                Read More on Etsy
-              </a>
-            </h3>
-          </Row>
-        </Carousel.Item>
       </Carousel>
     </Jumbotron>
   );
