@@ -41,7 +41,7 @@ const Testimonials = () => {
   const carouselArray = createCarouselArray();
 
   return (
-    <Jumbotron fluid className='bg-white m-0'>
+    <Jumbotron fluid id='testimonials' className='bg-white m-0'>
       <h2 className='display-4 pb-5 text-center'>Client Testimonials</h2>
       <Carousel interval={null} className='carousel-dark'>
         {carouselArray.map((rowArray) => (
