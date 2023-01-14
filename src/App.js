@@ -12,11 +12,11 @@ import {
 import MainBody from './components/home/MainBody';
 import AboutMe from './components/home/AboutMe';
 import Projects from './components/home/Projects';
+import Experience from './components/home/Experience';
 import Testimonials from './components/home/Testimonials';
+import GetInTouch from './components/home/GetInTouch.jsx';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import GetInTouch from './components/home/GetInTouch.jsx';
-import Experience from './components/home/Experience';
 
 const Home = React.forwardRef((props, ref) => {
   return (
@@ -37,9 +37,9 @@ const Home = React.forwardRef((props, ref) => {
           resume={about.resume}
         />
       )}
-      {experiences.show && <Experience experiences={experiences} />}
+      {<Experience experiences={experiences} />}
       {<Projects projects={projects} />}
-      {<Testimonials testimonials={testimonials}/>}
+      {<Testimonials testimonials={testimonials} />}
     </>
   );
 });
