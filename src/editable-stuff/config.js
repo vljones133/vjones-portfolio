@@ -141,6 +141,16 @@ const experiences = {
   heading: 'Experience',
   data: [
     {
+      role: 'Software Developer | Web Designer & Developer', // Here Add Company Name
+      companylogo: require('../assets/img/rocket-icon.jpg'),
+      date: 'Jan 2023 – Present',
+    },
+    {
+      role: 'React Native Developer Intern',
+      companylogo: require('../assets/img/livestockcity-logo.png'),
+      date: 'Apr 2023 – Present',
+    },
+    {
       role: 'Software Engineer Student', // Here Add Company Name
       companylogo: require('../assets/img/grace-hopper-logo.png'),
       date: 'June 2022 – Sept 2022',
@@ -158,7 +168,7 @@ const experiences = {
     {
       role: 'Space Weather Forecaster',
       companylogo: require('../assets/img/noaa_emblem_logo-2022.png'),
-      date: 'June 2013 – Jan 2013',
+      date: 'June 2011 – Jan 2013',
     },
   ],
 };
