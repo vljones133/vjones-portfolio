@@ -9,7 +9,7 @@ const mainBody = {
   firstName: 'Valerie',
   middleName: '',
   lastName: 'Jones',
-  message: ' Passionate about changing the world with technology. ',
+  message: ' Passionate about efficiency. ',
   icons: [
     {
       image: 'fa-github',
@@ -43,7 +43,6 @@ const about = {
   imageSize: 290,
   message:
     "Hi! I'm Valerie, an energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. I love creating beautiful websites and applications that help solve problems and increase efficiency and productivity.",
-  resume: require("../editable-stuff/ValerieJones_SoftwareEngineer_Resume.pdf"),
 };
 
 const projects = [
@@ -111,9 +110,8 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
+  'Python',
+  'AWS',
   'React',
   'React Native',
   'Redux',
@@ -133,7 +131,7 @@ const getInTouch = {
   message:
     `I'm currently looking for Full Stack Software Engineering opportunities.
     If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at `,
-  email: 'vljones133@gmail.com',
+  email: 'vjonesdev@gmail.com',
 };
 
 const experiences = {
@@ -141,7 +139,12 @@ const experiences = {
   heading: 'Experience',
   data: [
     {
-      role: 'Software Developer | Web Designer & Developer', // Here Add Company Name
+      role: 'Software Engineer',
+      companylogo: require('../assets/img/rocket-icon.jpg'),
+      date: 'Jan 2023 – Present',
+    },
+    {
+      role: 'Software Developer | Web Designer & Developer',
       companylogo: require('../assets/img/rocket-icon.jpg'),
       date: 'Jan 2023 – Present',
     },
@@ -151,7 +154,7 @@ const experiences = {
       date: 'Apr 2023 – Present',
     },
     {
-      role: 'Software Engineer Student', // Here Add Company Name
+      role: 'Software Engineer Student',
       companylogo: require('../assets/img/grace-hopper-logo.png'),
       date: 'June 2022 – Sept 2022',
     },
