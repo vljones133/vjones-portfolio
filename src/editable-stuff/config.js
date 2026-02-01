@@ -42,7 +42,8 @@ const about = {
   imageLink: require('../editable-stuff/profile-pic.png'),
   imageSize: 290,
   message:
-    "Hi! I'm Valerie, an energetic software engineer who loves learning and dabbling in everything. I have 15 years of experience in science and technical fields. I love creating beautiful websites and applications that help solve problems and increase efficiency and productivity.",
+    "Hi! I'm Valerie, an energetic software engineer who loves learning and dabbling in everything. I have 21 years of experience in science and technical fields. I love creating pretty applications that help solve problems and increase efficiency and productivity.",
+  resume: require("../editable-stuff/resume.pdf")
 };
 
 const projects = [
@@ -139,22 +140,22 @@ const experiences = {
   heading: 'Experience',
   data: [
     {
+      role: 'Senior Software Engineer / Project Lead',
+      companylogo: require('../assets/img/xts-logo.jpg'),
+      date: ' 2023 – Present',
+    },
+    {
       role: 'Software Engineer',
       companylogo: require('../assets/img/rocket-icon.jpg'),
-      date: 'Jan 2023 – Present',
+      date: 'Jan 2023 – Oct 2023',
     },
     {
-      role: 'Software Developer | Web Designer & Developer',
-      companylogo: require('../assets/img/rocket-icon.jpg'),
-      date: 'Jan 2023 – Present',
-    },
-    {
-      role: 'React Native Developer Intern',
+      role: 'React Native Developer',
       companylogo: require('../assets/img/livestockcity-logo.png'),
       date: 'Apr 2023 – Present',
     },
     {
-      role: 'Software Engineer Student',
+      role: 'Software Engineer Trainee',
       companylogo: require('../assets/img/grace-hopper-logo.png'),
       date: 'June 2022 – Sept 2022',
     },
@@ -172,6 +173,11 @@ const experiences = {
       role: 'Space Weather Forecaster',
       companylogo: require('../assets/img/noaa_emblem_logo-2022.png'),
       date: 'June 2011 – Jan 2013',
+    },
+    {
+      role: 'GIS Analyst',
+      companylogo: require('../assets/img/apsu-gis-center-logo.jpg'),
+      date: 'Feb 2010 – May 2011',
     },
   ],
 };
