@@ -152,7 +152,7 @@ const experiences = {
     {
       role: 'React Native Developer',
       companylogo: require('../assets/img/livestockcity-logo.png'),
-      date: 'Apr 2023 – Present',
+      date: 'Apr 2023 – Oct 2023',
     },
     {
       role: 'Software Engineer Trainee',
